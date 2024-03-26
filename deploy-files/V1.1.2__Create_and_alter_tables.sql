@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS hrdata.countries(
     country_id CHAR(2) NOT NULL,
     country_name VARCHAR(40),
     region_id NUMBER,
-    PRIMARY KEY country_id
+    PRIMARY KEY (country_id)
 );
 
 CREATE TABLE hrdata.regions(
