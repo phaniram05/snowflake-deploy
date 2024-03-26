@@ -26,11 +26,11 @@ CREATE TABLE IF NOT EXISTS hrdata.departments(
 );
 
 INSERT INTO hrdata.employees_new VALUES
-(111, 'Sai Phani Ram', 'Popuri', 'spop@gmail.com', '313.673.1358', TO_DATE('05-04-1998', 'dd-MON-yy'), 'CEO', 99999, NULL, NULL, 90),
-(222, 'Madhu', 'Popuri', 'madhu@gmail.com', '543.673.1358', TO_DATE('22-03-1997', 'dd-MON-yy'), 'CMO', 100000, NULL, NULL, 91),
-(333, 'Lakshmi', 'Popuri', 'laxmi@gmail.com', '457.673.1358', TO_DATE('30-09-1975', 'dd-MON-yy'), 'CFO', 100000, NULL, NULL, 92),
-(444, 'Srinivas', 'Popuri', 'srinivas@gmail.com', '123.673.1358', TO_DATE('01-01-1972', 'dd-MON-yy'), 'CTO', 88888, NULL, NULL, 93),
-(555, 'Annapurna', 'Popuri', 'annu@gmail.com', '333.673.1358', TO_DATE('12-04-1948', 'dd-MON-yy'), 'Chair', 55555, NULL, NULL, 94);
+(111, 'Sai Phani Ram', 'Popuri', 'spop@gmail.com', '313.673.1358', TO_DATE('05-04-1998', 'dd-MON-yyyy'), 'CEO', 99999, NULL, NULL, 90),
+(222, 'Madhu', 'Popuri', 'madhu@gmail.com', '543.673.1358', TO_DATE('22-03-1997', 'dd-MON-yyyy'), 'CMO', 100000, NULL, NULL, 91),
+(333, 'Lakshmi', 'Popuri', 'laxmi@gmail.com', '457.673.1358', TO_DATE('30-09-1975', 'dd-MON-yyyy'), 'CFO', 100000, NULL, NULL, 92),
+(444, 'Srinivas', 'Popuri', 'srinivas@gmail.com', '123.673.1358', TO_DATE('01-01-1972', 'dd-MON-yyyy'), 'CTO', 88888, NULL, NULL, 93),
+(555, 'Annapurna', 'Popuri', 'annu@gmail.com', '333.673.1358', TO_DATE('12-04-1948', 'dd-MON-yyyy'), 'Chair', 55555, NULL, NULL, 94);
 
 
 INSERT INTO hrdata.departments VALUES
