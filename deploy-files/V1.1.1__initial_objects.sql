@@ -35,7 +35,7 @@ INSERT INTO hrdata.employees_new VALUES
 
 INSERT INTO hrdata.departments VALUES
 (90, 'Administration', 200, 1000),
-(91, 'Marketing', 300, 1100)
-(90, 'Finance', 400, 1200)
-(90, 'Technology', 500, 1300)
+(91, 'Marketing', 300, 1100),
+(90, 'Finance', 400, 1200),
+(90, 'Technology', 500, 1300),
 (90, 'Organizer', 600, 1400);
